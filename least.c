@@ -22,7 +22,7 @@ int pz(int* cup, int begin, int end, int previous, int max)
  int main()
  { 
      int cup[(const int)ceil(log10(INT_MAX))]; 
-     int bar = 24635; // Assumed to be larger than pow(10, DIGITS_TO_REMOVE) - 1 
+     int bar = 24635; 
      int size = ceil(log10(bar)); 
      int i; 
      int min = size - DIGITS_TO_REMOVE; 
